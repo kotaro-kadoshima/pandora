@@ -36,7 +36,7 @@
 - [x] Requirements Analysis
 - [x] User Stories
 - [x] Workflow Planning
-- [ ] Application Design — EXECUTE
+- [x] Application Design
 - [ ] Units Generation — EXECUTE
 
 ### 🟢 CONSTRUCTION PHASE
@@ -52,6 +52,6 @@
 
 ## Current Status
 - **Lifecycle Phase**: INCEPTION
-- **Current Stage**: Workflow Planning Complete (承認待ち)
-- **Next Stage**: Application Design
+- **Current Stage**: Application Design Complete (承認待ち)
+- **Next Stage**: Units Generation
 - **Status**: Awaiting user approval
