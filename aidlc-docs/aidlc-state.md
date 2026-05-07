@@ -26,7 +26,7 @@
 ## Stage Progress
 - [x] Workspace Detection
 - [x] Requirements Analysis
-- [ ] User Stories
+- [x] User Stories (Part 1 + Part 2 完了 / 承認待ち)
 - [ ] Workflow Planning
 - [ ] Application Design
 - [ ] Units Generation
