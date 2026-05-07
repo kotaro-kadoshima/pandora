@@ -136,3 +136,34 @@
 **Context**: INCEPTION - Application Design Step 11-12 完了。承認待ち。
 
 ---
+
+## Application Design - Approval (Implicit via Commit)
+**Timestamp**: 2026-05-07T00:00:16Z
+**User Input**: "コミットして、AI署名はなしで。"
+**AI Response**: 82d7db6 として Application Design をコミット完了。承認とみなす。
+**Context**: INCEPTION - Application Design 完了
+
+---
+
+## Units Generation - Stage Start
+**Timestamp**: 2026-05-07T00:00:17Z
+**User Input**: "Units Generation ステージに進んでください。"
+**AI Response**: unit-of-work-plan.md を作成。Q1-Q5 を埋め込み、ユーザー回答待ち。
+**Context**: INCEPTION - Units Generation Part 1 (Planning) Step 1-5
+
+---
+
+## Units Generation - Plan Approved
+**Timestamp**: 2026-05-07T00:00:18Z
+**User Input**: "すべて推奨で"
+**AI Response**: 全質問を推奨で確定 (Q1=A, Q2=A, Q3=A, Q4=A)。ユニット成果物を生成。
+**Context**: INCEPTION - Units Generation Part 2 (Generation) 完了
+
+---
+
+## Units Generation - Artifacts Generated
+**Timestamp**: 2026-05-07T00:00:19Z
+**AI Response**: unit-of-work.md / unit-of-work-dependency.md / unit-of-work-story-map.md を生成。U1 Web App + U2 AWS Infra 構成。全 13 ストーリーを U1 に割当、U2 が必要リソースを提供。
+**Context**: INCEPTION - Units Generation 完了。承認待ち。
+
+---

@@ -37,7 +37,7 @@
 - [x] User Stories
 - [x] Workflow Planning
 - [x] Application Design
-- [ ] Units Generation — EXECUTE
+- [x] Units Generation
 
 ### 🟢 CONSTRUCTION PHASE
 - [ ] Functional Design — EXECUTE
@@ -52,6 +52,6 @@
 
 ## Current Status
 - **Lifecycle Phase**: INCEPTION
-- **Current Stage**: Application Design Complete (承認待ち)
-- **Next Stage**: Units Generation
+- **Current Stage**: Units Generation Complete (承認待ち)
+- **Next Stage**: Functional Design (Construction Phase / Per-Unit Loop 開始)
 - **Status**: Awaiting user approval
