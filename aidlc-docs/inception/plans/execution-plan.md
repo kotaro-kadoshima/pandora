@@ -56,13 +56,13 @@ flowchart TD
         WD["Workspace Detection<br/><b>COMPLETED</b>"]
         RA["Requirements Analysis<br/><b>COMPLETED</b>"]
         US["User Stories<br/><b>COMPLETED</b>"]
-        WP["Workflow Planning<br/><b>IN PROGRESS</b>"]
-        AD["Application Design<br/><b>EXECUTE</b>"]
-        UG["Units Generation<br/><b>EXECUTE</b>"]
+        WP["Workflow Planning<br/><b>COMPLETED</b>"]
+        AD["Application Design<br/><b>COMPLETED</b>"]
+        UG["Units Generation<br/><b>COMPLETED</b>"]
     end
 
     subgraph CONSTRUCTION["🟢 CONSTRUCTION PHASE"]
-        FD["Functional Design<br/><b>EXECUTE</b>"]
+        FD["Functional Design<br/><b>NEXT</b>"]
         NFRA["NFR Requirements<br/><b>EXECUTE</b>"]
         NFRD["NFR Design<br/><b>EXECUTE</b>"]
         ID["Infrastructure Design<br/><b>EXECUTE</b>"]
@@ -92,10 +92,10 @@ flowchart TD
     style WD fill:#4CAF50,stroke:#1B5E20,stroke-width:3px,color:#fff
     style RA fill:#4CAF50,stroke:#1B5E20,stroke-width:3px,color:#fff
     style US fill:#4CAF50,stroke:#1B5E20,stroke-width:3px,color:#fff
-    style WP fill:#FFA726,stroke:#E65100,stroke-width:3px,color:#000
-    style AD fill:#FFA726,stroke:#E65100,stroke-width:3px,stroke-dasharray: 5 5,color:#000
-    style UG fill:#FFA726,stroke:#E65100,stroke-width:3px,stroke-dasharray: 5 5,color:#000
-    style FD fill:#FFA726,stroke:#E65100,stroke-width:3px,stroke-dasharray: 5 5,color:#000
+    style WP fill:#4CAF50,stroke:#1B5E20,stroke-width:3px,color:#fff
+    style AD fill:#4CAF50,stroke:#1B5E20,stroke-width:3px,color:#fff
+    style UG fill:#4CAF50,stroke:#1B5E20,stroke-width:3px,color:#fff
+    style FD fill:#FFA726,stroke:#E65100,stroke-width:3px,color:#000
     style NFRA fill:#FFA726,stroke:#E65100,stroke-width:3px,stroke-dasharray: 5 5,color:#000
     style NFRD fill:#FFA726,stroke:#E65100,stroke-width:3px,stroke-dasharray: 5 5,color:#000
     style ID fill:#FFA726,stroke:#E65100,stroke-width:3px,stroke-dasharray: 5 5,color:#000
@@ -118,14 +118,12 @@ flowchart TD
 - [x] Reverse Engineering — **SKIPPED**（Greenfield）
 - [x] Requirements Analysis — **COMPLETED**
 - [x] User Stories — **COMPLETED**
-- [x] Workflow Planning — **IN PROGRESS**
-- [ ] **Application Design** — **EXECUTE**
-  - **Rationale**: 新規にフロント + Route Handlers + AWS リソースを統合設計する必要がある。コンポーネント・主要メソッド・データモデル・依存関係を整理しないと実装ブレが大きい。
-- [ ] **Units Generation** — **EXECUTE**
-  - **Rationale**: 並列開発しやすいよう以下のユニットに分解する想定:
+- [x] Workflow Planning — **COMPLETED**
+- [x] **Application Design** — **COMPLETED**
+- [x] **Units Generation** — **COMPLETED**
+  - **Units**:
     - **Unit 1: Web App** — Next.js（UI + Route Handlers）
     - **Unit 2: AWS Infra** — CDK（Cognito / DynamoDB / S3 / Bedrock 設定 / IAM）
-  - 1 週間 MVP でも、責務の分離と CI 構成が明確になる。
 
 ### 🟢 CONSTRUCTION PHASE（各ユニットでループ）
 
