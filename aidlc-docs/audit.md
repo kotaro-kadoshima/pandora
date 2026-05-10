@@ -167,3 +167,25 @@
 **Context**: INCEPTION - Units Generation 完了。承認待ち。
 
 ---
+
+## User Stories — Out-of-MVP 追記（企業スポンサー研究）
+**Timestamp**: 2026-05-10T00:00:00Z
+**User Input**: "User Stories ステージで企業の案件を入れるのを忘れていた。基本的には使い方は同じだが、企業側が試して欲しい。試作品などをユーザに定期期間用してもらってユーザの生データを取る。そこでは賞金等が発生するみたいなビジネスを考えたい。"
+**AI Response**: 類似システム（Prolific / Amazon Vine / モニプラ / Apple Research 等）を比較提示し、「一般ユーザーと同入口＋オプションモード」方針はモニプラ／Apple Research 型に該当することを共有。MVP 外として stories.md の Out-of-MVP に追記する案を提示。
+**Context**: INCEPTION - User Stories（既承認）への追加スコープ確認
+
+---
+
+## User Stories — Out-of-MVP 追記 ユーザー承認
+**Timestamp**: 2026-05-10T00:00:01Z
+**User Input**: "他の似たようなシステムはどうなってますか？個人的には導入は一般ユーザと同じで、そのオプションモードみたいのがあればいいかなとは思ってます。また今回のMVPでは昨日の実装までを行わずでもいいかなと思ってま"
+**AI Response**: 類似システム表＋Out-of-MVP 追記案を提示。
+**Context**: INCEPTION - User Stories 追記方針確認
+
+---
+
+## User Stories — Out-of-MVP 追記 実行
+**Timestamp**: 2026-05-10T00:00:02Z
+**User Input**: "おねがいします！"
+**AI Response**: stories.md の Out-of-MVP セクションに「企業スポンサー研究（Sponsored Research / "案件モード"）」ブロックを追加。Requirements / Application Design / Units は変更せず据え置き。
+**Context**: INCEPTION - User Stories 追記完了
